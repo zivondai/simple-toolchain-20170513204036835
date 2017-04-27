@@ -2,6 +2,6 @@
 
 applications:
 - name:      loggy-node
-  host:      loggy-node-pjm
+  host:      loggy-node-pjm-${random-word}
   memory:    128M
   command:   node server
